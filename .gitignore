@@ -1,23 +1,23 @@
 # Drupal core files
-/core/
+web/core/
 /vendor/
 
 # Contributed modules and themes
-/modules/contrib/
-/themes/contrib/
+web/modules/contrib/
+web/themes/contrib/
 
 # Custom modules and themes
-/sites/*/modules/custom/
-/sites/*/themes/custom/
+web/sites/*/modules/custom/
+web/sites/*/themes/custom/
 
 # Configuration files
-/sites/*/settings.php
-/sites/*/settings.local.php
-/sites/*/services.yml
-/sites/*/development.services.yml
+web/sites/*/settings.php
+web/sites/*/settings.local.php
+web/sites/*/services.yml
+web/sites/*/development.services.yml
 
 # Files directory (if not using a remote file system)
-/sites/*/files/
+web/sites/*/files/
 
 # Drush
 /drush/sites/
@@ -28,11 +28,9 @@
 /config/export/
 
 # Other temporary files
-/sites/*/files/php/
-/sites/*/files/js/
-/sites/*/files/styles/
+web/sites/default/files
 
 # Logs
-/sites/*/logs/
+web/sites/*/logs/
 /log/
 /logs/

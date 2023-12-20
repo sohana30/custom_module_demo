@@ -15,7 +15,7 @@ Prerequisites:
 5. Clone this repository
 
    ```shell script
-   https://github.com/sohana30/thesis_minisite.git
+   https://github.com/sohana30/custom_module_demo
    ```
 
 ### Composer
@@ -29,9 +29,8 @@ Prerequisites:
 - if issue occurs do
   - `lando destroy`
   - `lando rebuild`
-- Import config files `lando drush cim`
-  - If issue occur can import database too directly `lando db-import drupal9.2023-12-19-1703025703.sql.gz`
-
+- Database import `lando db-import drupal9.2023-12-19-1703025703.sql.gz`
+- `lando drush cr`
 ## Check custom module output
 
 - Enable the demo_module module: `lando drush en demo_module`
