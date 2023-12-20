@@ -77,4 +77,3 @@ Prerequisites:
 - Factory Method: The create method serves as a factory method, creating an instance of the controller with the necessary dependencies.
 
 - Rendering Output: The controller returns an array with the HTML markup to be displayed, using the formatted string from the StringFormatterService.
-# custom_module_demo
