@@ -38,7 +38,7 @@ Prerequisites:
 
 - Access the endpoint at <http://demo-module.lndo.site/demo-module/endpoint/100/125> in your browser.
   - Will get addition of 2 string
-    - Can check output with different input
+  - Can check output with different input
 
 # Code Explanation
 
