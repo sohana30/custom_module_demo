@@ -36,7 +36,7 @@ Prerequisites:
 
 - Enable the demo_module module: `lando drush en demo_module`
 
-- Access the endpoint at <http://demo-module.lndo.site/demo-module/endpoint/100/125> in your browser.
+- Access the endpoint at <http://demo.lndo.site/demo-module/endpoint/100/125> in your browser.
   - Will get addition of 2 string
   - Can check output with different input
 
