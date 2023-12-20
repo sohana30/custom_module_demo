@@ -14,7 +14,7 @@ class StringFormatterService {
     // Use the AdderService to add the numbers.
     $result = $this->adderService->addNumbers($num1, $num2);
 
-    return t('The result of adding @num1 and @num2 is @additionResult', [
+    return t('The product of @num1 and @num2 is @additionResult', [
       '@num1' => $num1,
       '@num2' => $num2,
       '@additionResult' => $result,
