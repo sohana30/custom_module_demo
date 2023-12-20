@@ -1,0 +1,6 @@
+name: 'Demo Module'
+type: module
+description: 'Demonstrates custom services and controller in Drupal.'
+package: Custom
+version: '1.0'
+core_version_requirement: ^8 || ^9 || ^10 

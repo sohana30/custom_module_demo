@@ -1,0 +1,8 @@
+services:
+  demo_module.adder:
+    class: Drupal\demo_module\AdderService
+    arguments: []
+
+  demo_module.string_formatter:
+    class: Drupal\demo_module\StringFormatterService
+    arguments: ['@demo_module.adder']
