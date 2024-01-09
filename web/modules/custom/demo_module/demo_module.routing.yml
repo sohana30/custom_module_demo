@@ -3,6 +3,8 @@ demo_module.endpoint:
   defaults:
     _controller: '\Drupal\demo_module\Controller\DemoModuleController::content'
     _title: 'Demo Module'
+    num1: null
+    num2: null
   requirements:
     _permission: 'access content'
     num1: '\d+(\.\d+)?'

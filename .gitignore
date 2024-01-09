@@ -34,3 +34,7 @@ web/sites/default/files
 web/sites/*/logs/
 /log/
 /logs/
+
+# Database
+.sql
+.sql.gz

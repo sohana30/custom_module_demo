@@ -21,14 +21,13 @@ class DemoModuleController extends ControllerBase {
     );
   }
 
-  public function content(float $num1 = null, float $num2 = null) {
-    // If parameters are not provided in the URL, use default values.
-    $num1 = isset($num1) ? $num1 : 100;
-    $num2 = isset($num2) ? $num2 : 125;
-    $result = null;
-
-    $output = $this->stringFormatterService->formatString($num1, $num2, $result);
-
+  public function content($num1, $num2) {
+    if (!is_numeric($num1) || !is_numeric($num2)) {
+      $output = 'Please provide number in num1 and num2 path "/demo-module/endpoint/numb1/numb2"';
+    } else {
+      $output = $this->stringFormatterService->formatString($num1, $num2);
+    }
+    
     return [
       '#markup' => $output,
     ];
