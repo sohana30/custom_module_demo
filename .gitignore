@@ -36,5 +36,5 @@ web/sites/*/logs/
 /logs/
 
 # Database
-.sql
-.sql.gz
+*.sql
+*.sql.gz
